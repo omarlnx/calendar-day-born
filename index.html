@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="main.css" />
+  <!-- CSS font awesome -->
+  <title>calculator</title>
+</head>
+
+<body>
+  <div class="container my-6">
+    <div class="container" id="title">
+      <h1 class="text-center">The calendar calculator</h1>
+      <h2 class="text-center">Ingresa el la fecha de tu nacimiento para saber el dia!</h2>
+      <p class="text-center"></p>
+
+
+      <div class="row">
+        <div class="col  d-flex flex-wrap">
+          <div class="group col-md-4">
+            <label for="name">Name (4 to 8 characters):</label>
+            <input id="dia" class="form-control" type="text" placeholder="Día">
+          </div>
+          <div class="group col-md-4">
+            <label for="name">Name (4 to 8 characters):</label>
+            <input id="mes" class="form-control" placeholder="Mes como numero pliss!">
+          </div>
+          <div class="group col-md-4">
+            <label for="name">Name (4 to 8 characters):</label>
+            <input id="anio" class="form-control" placeholder="Año">
+          </div>
+        </div>
+      </div>
+      <div class="row my-2 justify-content-center">
+        <div class="col-auto d-flex ">
+          <div>
+            <button type="button" class="btn btn-primary" onclick="myFunction()">fecha</button>
+          <p id="calculo"></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- JS de bootstrap -->
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <script src="script.js"></script>
+
+      <script src="main.css"></script>
+      <script src="script.js"></script>
+</body>
+
+</html>
